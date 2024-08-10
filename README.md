@@ -23,8 +23,10 @@ The dataset used in this project contains images of 49 different sign language g
 Dataset/
 │
 ├── detection/         # Data for YOLOv8 model
-│   ├── images/
-│   └── annotations/
+│   ├── train/
+│   ├── valid/
+│   ├── test/
+│   └── custom.yaml/
 │
 ├── classification/    # Data for classification model
 │   ├── train/
